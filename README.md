@@ -5,7 +5,7 @@ This project was bootstrapped using create-react-app and generates information f
 
 ### Take a Hike
 
-This app works best if the user has location services enabled. Once the user has enable location services, the app will check the coordinates of their location using the Navigator API and display their location on a map. After their location is retrieved the app will convert those coordinates to an address using Googles geocoding services and use that information to filter the National Park Service API for their state.
+This app is for someone who wants a quick way to find National Parks in their area that offer hiking. This app works best if the user has location services enabled. Once the user has enable location services, the app will check the coordinates of their location using the Navigator API and display their location on a map. After their location is retrieved the app will convert those coordinates to an address using Googles geocoding services and use that information to filter the National Park Service API for their state.
 
 #### Improvements
 
