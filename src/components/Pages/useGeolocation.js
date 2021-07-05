@@ -8,7 +8,7 @@ const idLocation = () =>{
         userAddress: null,
     })
 
-    findLocation (){
+    findLocation =()=>{
         if(navigator.geolocation){
             navigator.geolocation.getCurrentPosition(showPosition);
         }else{

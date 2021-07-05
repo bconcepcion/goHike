@@ -1,6 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 function StateDropdown() {
+    const [location, setlocation] = useState(0);
+
+
     
     return (
         <div>
