@@ -33,7 +33,7 @@ useEffect(() => {
     getNationalParks()   
 }, [])
    
-
+logDetails();
 
     return (
         <div>

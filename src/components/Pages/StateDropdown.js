@@ -1,13 +1,12 @@
 import React, {useState} from 'react'
 
 function StateDropdown() {
-    const [location, setlocation] = useState(0);
+    const [place, setPlace] = useState("NY");
 
 
-    
     return (
-        <div>
-            <select>
+        <form>
+            <select value={place} onChange={(e) => {console.log(e.target.value); setPlace(e.target.value)}}>
               <option value="AL">Alabama</option>
               <option value="AK">Alaska</option>
               <option value="AZ">Arizona</option>
@@ -60,7 +59,7 @@ function StateDropdown() {
               <option value="WI">Wisconsin</option>
               <option value="WY">Wyoming</option>
         </select> 
-        </div>
+        </form>
     )
 }
 
